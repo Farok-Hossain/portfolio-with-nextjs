@@ -20,7 +20,9 @@ const Hero = () => {
       </div>
       <div className="flex justify-center">
         <div className="max-w-[89vw]">
-          <h1>Dynamic Web Magic with Next.js</h1>
+          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            Dynamic Web Magic with Next.js
+          </h2>
         </div>
       </div>
     </div>
