@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Bistro Boss Restaurant",
+    des: "A responsive E-commerce website done with MERN with fully functional. Users can easily order food & make payment.",
     img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/three.svg", "/fm.svg"],
+    link: "https://bistro-restaurant-866e3.web.app/",
   },
   {
     id: 2,
