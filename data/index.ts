@@ -91,7 +91,7 @@ export const projects = [
     title: "Tinzer Health Care - A Health Care Web App",
     des: "A responsive front end web app with fully funtional component of React.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/bt1.svg", "/css1.svg", "/nt1.svg", "/f2.svg"],
+    iconLists: ["/re.svg", "/bt1.svg", "/css1.svg", "/nt2.svg", "/f2.svg"],
     link: "https://tinzer-health-care.netlify.app/",
   },
   {
