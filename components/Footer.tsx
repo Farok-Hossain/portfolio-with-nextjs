@@ -2,6 +2,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import { GrFacebookOption } from "react-icons/gr";
+import { BsInstagram, BsTwitter } from "react-icons/bs";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -37,7 +40,7 @@ const Footer = () => {
           Copyright © 2024 Farok Hossain
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        {/* <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <div
               key={info.id}
@@ -46,6 +49,17 @@ const Footer = () => {
               <img src={info.img} alt="icons" width={20} height={20} />
             </div>
           ))}
+        </div> */}
+        <div className="flex justify-center gap-3 mb-8">
+          <a href="https://facebook.com" target="_blank">
+            <GrFacebookOption></GrFacebookOption>
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <BsInstagram></BsInstagram>
+          </a>
+          <Link href="https://twitter.com" target="_blank">
+            <BsTwitter></BsTwitter>
+          </Link>
         </div>
       </div>
     </footer>
