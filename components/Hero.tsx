@@ -57,7 +57,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Farok Hossain, a MERN Stack Developer.
+            Hi! I&apos;m <span className=" text-pink-500">Farok Hossain</span>,
+            a MERN Stack Developer.
           </p>
 
           <a href="#about">
