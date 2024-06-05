@@ -64,9 +64,9 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/farok-hossain-008444202/">
             <FaLinkedin />
           </a>
-          <Link href="https://twitter.com" target="_blank">
+          <a href="https://twitter.com" target="_blank">
             <BsTwitter></BsTwitter>
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
