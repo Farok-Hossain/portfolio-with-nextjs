@@ -5,6 +5,7 @@ import MagicButton from "./MagicButton";
 import { GrFacebookOption } from "react-icons/gr";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -57,6 +58,7 @@ const Footer = () => {
           <a href="https://instagram.com" target="_blank">
             <BsInstagram></BsInstagram>
           </a>
+          <FaGithub />
           <Link href="https://twitter.com" target="_blank">
             <BsTwitter></BsTwitter>
           </Link>
