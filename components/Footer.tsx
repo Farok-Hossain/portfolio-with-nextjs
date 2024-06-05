@@ -58,7 +58,9 @@ const Footer = () => {
           <a href="https://instagram.com" target="_blank">
             <BsInstagram></BsInstagram>
           </a>
-          <FaGithub />
+          <a href="https://github.com/Farok-Hossain" target="_blank">
+            <FaGithub />
+          </a>
           <Link href="https://twitter.com" target="_blank">
             <BsTwitter></BsTwitter>
           </Link>
