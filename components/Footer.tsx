@@ -25,7 +25,8 @@ const Footer = () => {
           presence to the <span className="text-pink-500">next</span> level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center font-bold">
-          Reach out to me today and let&apos;s discuss how I can help you
+          Reach out to me today and let&apos;s{" "}
+          <span className=" text-pink-500">discuss</span> how I can help you
           achieve your goals.
         </p>
         <a href="mailto: farokafs7@gmail.com">
