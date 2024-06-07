@@ -72,6 +72,10 @@ const RecentProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+
+              <a href="https://www.instagram.com/" target="_blank">
+                instagram
+              </a>
             </PinContainer>
           </div>
         ))}
