@@ -63,7 +63,7 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com" target="_blank">
+          <a href="https://x.com/farok_afs" target="_blank">
             <BsTwitter></BsTwitter>
           </a>
         </div>
