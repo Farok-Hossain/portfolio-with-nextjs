@@ -41,8 +41,9 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <div className=" lg:ml-80 md:ml-32 mb-10">
-          <p className="md:text-base text-sm md:font-normal font-light">
-            Copyright © 2024 Farok Hossain
+          <p className="md:text-base lg:font-bold text-sm md:font-normal font-light">
+            Copyright © 2024{" "}
+            <span className="text-pink-500">Farok Hossain</span>
           </p>
         </div>
         <div className="flex justify-center gap-3 mb-10 lg:mr-80 md:mr-32">
