@@ -45,7 +45,10 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-center gap-3 mb-8">
-          <a href="https://facebook.com" target="_blank">
+          <a
+            href="https://www.facebook.com/profile.php?id=100006429429427"
+            target="_blank"
+          >
             <GrFacebookOption></GrFacebookOption>
           </a>
           <a href="https://instagram.com" target="_blank">
