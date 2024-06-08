@@ -5,6 +5,9 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+import imgAdrian from "../public/adrian.jpg";
+import imgProfile from "../public/adrian.jpg";
+
 export const gridItems = [
   {
     id: 1,
@@ -110,30 +113,35 @@ export const testimonials = [
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    img: { imgAdrian },
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Adam Smith",
     title: "Director of BetaStream Technologies",
+    img: { imgProfile },
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Adrian",
     title: "Director of JSM Technologies",
+    img: { imgAdrian },
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "McCarthy",
     title: "Director of RapidScale Technologies",
+    img: { imgProfile },
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "John Kirton",
     title: "Director of Openxcell Technologies",
+    img: { imgAdrian },
   },
 ];
 
