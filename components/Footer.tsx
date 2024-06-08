@@ -3,6 +3,7 @@ import MagicButton from "./MagicButton";
 import { GrFacebookOption } from "react-icons/gr";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -45,15 +46,6 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-center gap-3 mb-10 lg:mr-80 md:mr-32">
-          <a
-            href="https://www.facebook.com/profile.php?id=100006429429427"
-            target="_blank"
-          >
-            <GrFacebookOption></GrFacebookOption>
-          </a>
-          <a href="https://www.instagram.com/farok_afs/" target="_blank">
-            <BsInstagram></BsInstagram>
-          </a>
           <a href="https://github.com/Farok-Hossain" target="_blank">
             <FaGithub />
           </a>
@@ -63,6 +55,16 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100006429429427"
+            target="_blank"
+          >
+            <GrFacebookOption></GrFacebookOption>
+          </a>
+          <a href="https://www.instagram.com/farok_afs/" target="_blank">
+            <BsInstagram></BsInstagram>
+          </a>
+
           <a href="https://x.com/farok_afs" target="_blank">
             <BsTwitter></BsTwitter>
           </a>
