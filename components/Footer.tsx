@@ -38,13 +38,13 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div>
-        <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+        <div className=" lg:ml-80 md:ml-32 mb-10">
           <p className="md:text-base text-sm md:font-normal font-light">
             Copyright © 2024 Farok Hossain
           </p>
         </div>
-        <div className="flex justify-center gap-3 mb-8">
+        <div className="flex justify-center gap-3 mb-10 lg:mr-80 md:mr-32">
           <a
             href="https://www.facebook.com/profile.php?id=100006429429427"
             target="_blank"
