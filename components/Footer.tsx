@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <GrFacebookOption></GrFacebookOption>
           </a>
-          <a href="https://instagram.com" target="_blank">
+          <a href="https://www.instagram.com/farok_afs/" target="_blank">
             <BsInstagram></BsInstagram>
           </a>
           <a href="https://github.com/Farok-Hossain" target="_blank">
