@@ -65,7 +65,11 @@ const Hero = () => {
             a MERN Stack Developer.
           </p>
 
-          <Image src={myImage} alt="myImg" className=" rounded-3xl" />
+          <Image
+            src={myImage}
+            alt="myImg"
+            className=" rounded-3xl lg:h-[45%] lg:w-[45%] md:h-[50%] md:w-[50%] sm:h-[30%] sm:w-[30%]"
+          />
           <a href="#about">
             <MagicButton
               title="Show my work"
