@@ -5,6 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 // import CV from "../files/cv.pdf";
 import myImage from "../public/myImage.jpg";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -64,11 +65,7 @@ const Hero = () => {
             a MERN Stack Developer.
           </p>
 
-          {/* <a href={CV} download>
-            Download CV
-          </a> */}
-
-          <img src={myImage} alt="me" />
+          <Image src={myImage} alt="myImg" className=" rounded-3xl" />
           <a href="#about">
             <MagicButton
               title="Show my work"

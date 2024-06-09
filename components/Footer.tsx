@@ -4,6 +4,8 @@ import { GrFacebookOption } from "react-icons/gr";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import myImg from "../public/myImage.jpg";
+import Image from "next/image";
 
 const Footer = () => {
   return (
