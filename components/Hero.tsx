@@ -68,15 +68,20 @@ const Hero = () => {
           <Image
             src={myImage}
             alt="myImg"
-            className=" rounded-3xl lg:h-[45%] lg:w-[45%] md:h-[50%] md:w-[50%] sm:h-[30%] sm:w-[30%]"
+            className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
           />
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div>
+            <a href="https://www.instagram.com/">
+              <MagicButton title="Download CV" />
+            </a>
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
