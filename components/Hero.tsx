@@ -6,6 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 // import CV from "../files/cv.pdf";
 import myImage from "../public/myImage.jpg";
 import Image from "next/image";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -72,7 +73,11 @@ const Hero = () => {
           />
           <div>
             <a href="https://www.instagram.com/">
-              <MagicButton title="Download CV" />
+              <MagicButton
+                title="Download CV"
+                icon={<FaCloudDownloadAlt />}
+                position="right"
+              />
             </a>
             <a href="#about">
               <MagicButton
