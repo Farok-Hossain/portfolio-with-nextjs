@@ -37,7 +37,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase font-bold tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with{" "}
-            <span className="text-pink-500">Next.js</span>
+            <span className="text-pink-500">Next.JS</span>
           </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
