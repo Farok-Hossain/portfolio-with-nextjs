@@ -1,6 +1,5 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaSquareFacebook } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import { GrFacebookOption } from "react-icons/gr";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -62,7 +61,7 @@ const Footer = () => {
             href="https://www.facebook.com/profile.php?id=100006429429427"
             target="_blank"
           >
-            <GrFacebookOption></GrFacebookOption>
+            <FaSquareFacebook></FaSquareFacebook>
           </a>
           <a href="https://www.instagram.com/farok_afs/" target="_blank">
             <BsInstagram></BsInstagram>
