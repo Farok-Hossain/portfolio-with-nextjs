@@ -55,8 +55,8 @@ const Hero = () => {
             className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
           />
           <div>
-            <a href="../public/files/cv.pdf" download>
-              download
+            <a className=" mr-2" href="../public/files/cv.pdf" download>
+              download cv
             </a>
             {/* <a
               href={cv}
