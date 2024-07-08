@@ -1,6 +1,7 @@
 "use client";
 
 import Approach from "@/components/Approach";
+import PCard from "@/components/Card/PCard";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
@@ -20,6 +21,7 @@ const Home = () => {
         <Clients />
         <Experience />
         <Approach />
+        <PCard />
       </div>
     </main>
   );
