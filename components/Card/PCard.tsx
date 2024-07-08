@@ -51,7 +51,7 @@ const PCard = () => {
         <div key={project.id}>
           <div className="card card-compact w-96 shadow-xl">
             <figure>
-              <Image src={project.img} alt="Shoes" className="rounded-xl" />
+              <img src={project.img} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
