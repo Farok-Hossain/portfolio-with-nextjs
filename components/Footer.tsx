@@ -1,6 +1,10 @@
-import { FaLocationArrow, FaSquareFacebook } from "react-icons/fa6";
+import {
+  FaLocationArrow,
+  FaSquareFacebook,
+  FaSquareXTwitter,
+} from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import { BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import myImg from "../public/myImage.jpg";
@@ -68,7 +72,7 @@ const Footer = () => {
           </a>
 
           <a href="https://x.com/farok_afs" target="_blank">
-            <BsTwitter></BsTwitter>
+            <FaSquareXTwitter></FaSquareXTwitter>
           </a>
         </div>
       </div>
