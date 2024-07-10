@@ -10,6 +10,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 // import cv from "../public/files/cv.pdf";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { MdDownload } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -51,7 +52,7 @@ const Hero = () => {
             I&apos;m a Professional{" "}
             <span className="text-green-600">Software Developer</span>.
           </p>
-          <div>
+          <div className="my-5 flex text-left gap-5">
             <Link
               href={personalData.github}
               target="_blank"
@@ -96,8 +97,9 @@ const Hero = () => {
           />
           <div>
             <Link target="_blak" href={personalData.resume}>
-              <button className="btn btn-success uppercase mr-2">
-                Get Resume
+              <button className="btn btn-success uppercase mr-2 text-white">
+                <span>Get Resume</span>
+                <MdDownload size={16} />
               </button>
             </Link>
             <a href="#about">
