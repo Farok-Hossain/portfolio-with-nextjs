@@ -9,6 +9,7 @@ import Image from "next/image";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 // import cv from "../public/files/cv.pdf";
 import Link from "next/link";
+import { BsGithub } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -50,6 +51,15 @@ const Hero = () => {
             I&apos;m a Professional{" "}
             <span className="text-green-600">Software Developer</span>.
           </p>
+          <div>
+            <Link
+              href={personalData.github}
+              target="_blank"
+              className=" transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <BsGithub size={30} />
+            </Link>
+          </div>
 
           <Image
             src={myImage}
