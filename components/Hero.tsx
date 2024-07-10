@@ -1,4 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import { personalData } from "@/utils/data/personal-data";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -55,28 +56,14 @@ const Hero = () => {
             className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
           />
           <div>
-            <a
-              className=" mr-2 uppercase text-sm"
-              href="../public/files/cv.pdf"
-              download
-            >
-              download cv
-            </a>
-            {/* <a
-              href={cv}
-              download
-              className=" pr-5"
-            >
-              <MagicButton
-                title="Download CV"
-                icon={<FaCloudDownloadAlt />}
-                position="right"
-              />
-              download cvv
-            </a> */}
+            <Link target="_blak" href={personalData.resume}>
+              <button className="btn btn-success uppercase mr-2">
+                Get Resume
+              </button>
+            </Link>
             <a href="#about">
               <MagicButton
-                title="Show my work"
+                title="SHOW MY WORK"
                 icon={<FaLocationArrow />}
                 position="right"
               />

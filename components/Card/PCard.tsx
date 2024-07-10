@@ -1,11 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
+import { personalData } from "@/utils/data/personal-data";
+
 import p1 from "../../public/p1.png";
 import p2 from "../../public/p2.png";
 import p3 from "../../public/p3.png";
 import p4 from "../../public/p4.png";
-import Projects from "./Projects/Projects";
+// import Projects from "./Projects/Projects";
 import { any } from "three/examples/jsm/nodes/Nodes.js";
 import Image from "next/image";
 
@@ -65,6 +67,9 @@ const PCard = () => {
           </div>
         </div>
       ))}
+      <Link target="_blank" href={personalData.resume}>
+        <span className="text-pink-500">Get Resume</span>
+      </Link>
     </div>
   );
 };
