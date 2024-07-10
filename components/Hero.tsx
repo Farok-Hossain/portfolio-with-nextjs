@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaFacebook, FaLocationArrow, FaSquareXTwitter } from "react-icons/fa6";
 import { personalData } from "@/utils/data/personal-data";
 
 import MagicButton from "./MagicButton";
@@ -9,7 +9,7 @@ import Image from "next/image";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 // import cv from "../public/files/cv.pdf";
 import Link from "next/link";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -58,6 +58,34 @@ const Hero = () => {
               className=" transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
+            </Link>
+            <Link
+              href={personalData.linkedIn}
+              target="_blank"
+              className="text-pink-500"
+            >
+              <BsLinkedin size={30} />
+            </Link>
+            <Link
+              href={personalData.facebook}
+              target="_blank"
+              className="text-pink-500"
+            >
+              <FaFacebook size={30} />
+            </Link>
+            <Link
+              href={personalData.instagram}
+              target="_blank"
+              className="text-pink-500"
+            >
+              <BsInstagram size={30} />
+            </Link>
+            <Link
+              href={personalData.twitter}
+              target="_blank"
+              className="text-pink-500"
+            >
+              <FaSquareXTwitter size={30} />
             </Link>
           </div>
 
