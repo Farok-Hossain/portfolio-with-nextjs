@@ -1,4 +1,4 @@
 export const personalData = {
   resume:
-    "https://drive.google.com/file/d/1U1PmxVQF58SzpWtiSUIW2Y06DHcwfPJM/view",
+    "https://drive.google.com/file/d/1xUPIKV74nAwwEds4E8TEB_pt-NoHv0pv/view",
 };
