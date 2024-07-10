@@ -37,17 +37,17 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-start justify-center">
           <p className="uppercase font-bold tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic With{" "}
             <span className="text-pink-500">Next.JS</span>
           </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-start text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
+          <p className="text-start md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
             Hi! This is <span className=" text-pink-500">Farok Hossain</span>,
             I&apos;m a Professional{" "}
             <span className="text-green-600">Software Developer</span>.
