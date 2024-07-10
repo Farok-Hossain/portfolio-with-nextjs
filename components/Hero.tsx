@@ -7,7 +7,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import myImage from "../public/myImage.jpg";
 import Image from "next/image";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-// import cv from "../public/files/cv.pdf";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
@@ -89,12 +88,6 @@ const Hero = () => {
               <FaSquareXTwitter size={30} />
             </Link>
           </div>
-
-          <Image
-            src={myImage}
-            alt="myImg"
-            className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
-          />
           <div>
             <Link target="_blak" href={personalData.resume}>
               <button className="btn btn-success uppercase mr-2 text-white">
@@ -110,6 +103,12 @@ const Hero = () => {
               />
             </a>
           </div>
+
+          <Image
+            src={myImage}
+            alt="myImg"
+            className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
+          />
         </div>
       </div>
     </div>
