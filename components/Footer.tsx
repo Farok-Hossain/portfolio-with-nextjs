@@ -1,6 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import myImg from "../public/myImage.jpg";
 import Image from "next/image";
 
 const Footer = () => {
@@ -10,21 +9,12 @@ const Footer = () => {
       id="contact"
       style={{ backgroundColor: "#000319" }}
     >
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div>
-
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-pink-500">your</span> digital
           presence to the <span className="text-pink-500">next</span> level?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center font-bold">
+        <p className="text-white-300 md:mt-10 my-5 text-center font-bold">
           Reach out to me today and let&apos;s{" "}
           <span className=" text-pink-500">discuss</span> how I can help you
           achieve your goals.
