@@ -1,6 +1,7 @@
 "use client";
 
 import Approach from "@/components/Approach";
+import Code from "@/components/Card/Code";
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -14,6 +15,7 @@ const Home = () => {
       <div className=" max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Code />
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
