@@ -76,14 +76,14 @@ const Hero = () => {
             <Link
               href={personalData.instagram}
               target="_blank"
-              className="text-pink-500"
+              className=" transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsInstagram size={30} />
             </Link>
             <Link
               href={personalData.twitter}
               target="_blank"
-              className="text-pink-500"
+              className=" transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaSquareXTwitter size={30} />
             </Link>
@@ -95,13 +95,13 @@ const Hero = () => {
                 <MdDownload size={16} />
               </button>
             </Link>
-            <a href="#about">
+            <Link href="#about">
               <MagicButton
                 title="SHOW MY WORK"
                 icon={<FaLocationArrow />}
                 position="right"
               />
-            </a>
+            </Link>
           </div>
 
           <div className="lg:grid grid-cols-2">
