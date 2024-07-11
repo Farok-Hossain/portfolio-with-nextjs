@@ -1,12 +1,5 @@
-import {
-  FaLocationArrow,
-  FaSquareFacebook,
-  FaSquareXTwitter,
-} from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import { BsInstagram } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import myImg from "../public/myImage.jpg";
 import Image from "next/image";
 
@@ -44,37 +37,10 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <div className=" lg:ml-80 md:ml-32 mb-10">
-          <p className="md:text-base lg:font-bold text-sm md:font-normal font-light">
-            Copyright © 2024{" "}
-            <span className="text-pink-500">Farok Hossain</span>
-          </p>
-        </div>
-        <div className="flex justify-center gap-3 mb-10 lg:mr-80 md:mr-32">
-          <a href="https://github.com/Farok-Hossain" target="_blank">
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/farok-hossain-008444202/"
-            target="_blank"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100006429429427"
-            target="_blank"
-          >
-            <FaSquareFacebook></FaSquareFacebook>
-          </a>
-          <a href="https://www.instagram.com/farok_afs/" target="_blank">
-            <BsInstagram></BsInstagram>
-          </a>
-
-          <a href="https://x.com/farok_afs" target="_blank">
-            <FaSquareXTwitter></FaSquareXTwitter>
-          </a>
-        </div>
+      <div className="text-center mt-5">
+        <p className="md:text-base lg:font-bold text-sm md:font-normal font-light">
+          Copyright © 2024 <span className="text-pink-500">Farok Hossain</span>
+        </p>
       </div>
     </footer>
   );
