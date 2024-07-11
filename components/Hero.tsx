@@ -49,7 +49,7 @@ const Hero = () => {
           <p className="text-start md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
             Hi! This is <span className=" text-pink-500">Farok Hossain</span>,
             I&apos;m a Professional{" "}
-            <span className="text-green-600">Software Developer</span>.
+            <span className="text-green-400">Software Developer</span>.
           </p>
           <div className="my-5 flex text-left gap-5">
             <Link
@@ -104,11 +104,21 @@ const Hero = () => {
             </a>
           </div>
 
-          <Image
-            src={myImage}
-            alt="myImg"
-            className=" rounded-3xl lg:h-[45%] lg:w-[42%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
-          />
+          <div className="lg:grid grid-cols-2">
+            <div>
+              <Image
+                src={myImage}
+                alt="myImg"
+                className=" rounded-3xl lg:h-[80%] lg:w-[68%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
+              />
+            </div>
+            <div className="mt-8">
+              <h1 className="uppercase text-green-400 text-2xl font-bold ">
+                Who I am?
+              </h1>
+              <p>{personalData.description}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
