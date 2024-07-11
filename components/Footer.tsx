@@ -10,7 +10,7 @@ const Footer = () => {
       style={{ backgroundColor: "#000319" }}
     >
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading lg:max-w-[45vw] ml-4">
           Ready to take <span className="text-pink-500">your</span> digital
           presence to the <span className="text-pink-500">next</span> level?
         </h1>

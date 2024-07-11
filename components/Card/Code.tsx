@@ -10,8 +10,8 @@ import myImage from "../../public/myImage.jpg";
 
 const Code = () => {
   return (
-    <div className="grid grid-cols-2 m-8 gap-4">
-      <div className="pr-2">
+    <div className="lg:grid grid-cols-2 lg:ml-80 lg:mr-80 gap-4">
+      <div className="pr-2 mb-5">
         <p className="text-start md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
           Hi! <br /> This is{" "}
           <span className=" text-pink-500">Farok Hossain</span>, I&apos;m a
