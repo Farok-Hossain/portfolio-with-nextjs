@@ -72,6 +72,7 @@ import vuetifyjs from "/public/svg/skills/vuetifyjs.svg";
 import webix from "/public/svg/skills/webix.svg";
 import wolframalpha from "/public/svg/skills/wolframalpha.svg";
 import wordpress from "/public/svg/skills/wordpress.svg";
+import reactNative from "/public/svg/skills/reactNative.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -102,6 +103,8 @@ export const skillsImage = (skill) => {
       return nuxtJS;
     case "react":
       return react;
+    case "reactnative":
+      return reactNative;
     case "svelte":
       return svelte;
     case "typescript":
@@ -120,10 +123,10 @@ export const skillsImage = (skill) => {
       return memsql;
     case "mongodb":
       return mongoDB;
-    case "mysql":
-      return mysql;
-    case "postgresql":
-      return postgresql;
+    // case "mysql":
+    //   return mysql;
+    // case "postgresql":
+    //   return postgresql;
     case "tailwind":
       return tailwind;
     case "vitejs":
@@ -138,8 +141,8 @@ export const skillsImage = (skill) => {
       return csharp;
     case "dart":
       return dart;
-    case "go":
-      return go;
+    // case "go":
+    //   return go;
     case "java":
       return java;
     case "kotlin":

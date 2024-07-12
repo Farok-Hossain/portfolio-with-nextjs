@@ -5,20 +5,14 @@ export const skillsData = [
   "Typescript",
   "React",
   "Next JS",
+  "ReactNative",
   "Tailwind",
   "MongoDB",
-  "MySQL",
-  "PostgreSQL",
   "Git",
-  "AWS",
   "Bootstrap",
-  "Docker",
-  "Go",
   "Figma",
   "Firebase",
   "MaterialUI",
-  "Nginx",
-  "Strapi",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -27,6 +21,13 @@ export const skillsData = [
 // AVAILABLE SKILLS
 
 /* 
+"Docker",
+  "Go",
+"AWS",
+ "MySQL",
+  "PostgreSQL",
+"Nginx",
+  "Strapi",
     HTML
     CSS
     JS 
