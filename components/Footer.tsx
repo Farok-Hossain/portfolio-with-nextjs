@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div className="text-center mt-5">
         <p className="md:text-base lg:font-bold text-sm md:font-normal font-light">
-          Copyright © 2024 <span className="text-pink-500">Farok Hossain</span>
+          © Portfolio by <span className="text-pink-500">Farok Hossain</span>
         </p>
       </div>
     </footer>

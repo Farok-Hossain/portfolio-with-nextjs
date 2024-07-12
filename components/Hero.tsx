@@ -11,13 +11,13 @@ const Hero = () => {
   return (
     <div className="lg:grid grid-cols-2 gap-4 mt-40" id="about">
       <div className="pr-2 mb-16">
-        <p className="text-start md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
+        <p className="text-start md:tracking-wider mb-14 text-xl md:text-3xl lg:text-4xl font-bold">
           Hi! <br /> This is{" "}
           <span className=" text-pink-500">Farok Hossain</span>, <br /> I&apos;m
           a Professional{" "}
           <span className="text-green-400">Software Developer</span>.
         </p>
-        <div className="my-5 flex text-left gap-5">
+        <div className="my-5 flex text-left gap-5 mb-12">
           <Link
             href={personalData.github}
             target="_blank"
