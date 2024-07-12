@@ -2,17 +2,14 @@ import { FaFacebook, FaLocationArrow, FaSquareXTwitter } from "react-icons/fa6";
 import { personalData } from "@/utils/data/personal-data";
 
 import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import Image from "next/image";
-import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
+import { RiContactsFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
-    <div className="lg:grid grid-cols-2 gap-4 mt-40">
+    <div className="lg:grid grid-cols-2 gap-4 mt-40" id="about">
       <div className="pr-2 mb-16">
         <p className="text-start md:tracking-wider mb-4 text-xl md:text-3xl lg:text-4xl font-bold">
           Hi! <br /> This is{" "}
@@ -57,20 +54,29 @@ const Hero = () => {
             <FaSquareXTwitter size={30} />
           </Link>
         </div>
-        <div>
+        <div className="flex items-center gap-3">
           <Link target="_blak" href={personalData.resume}>
-            <button className="btn btn-success uppercase mr-2 text-white">
+            <button className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold">
               <span>Get Resume</span>
               <MdDownload size={16} />
             </button>
           </Link>
-          <Link href="#about">
+          <Link
+            href="#contact"
+            className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
+          >
+            <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
+              <span>Contact Me</span>
+              <RiContactsFill size={16} />
+            </button>
+          </Link>
+          {/* <Link href="#about">
             <MagicButton
               title="SHOW MY WORK"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
