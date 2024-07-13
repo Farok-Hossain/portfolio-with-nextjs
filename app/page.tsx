@@ -2,6 +2,7 @@
 
 import Approach from "@/components/Approach";
 import Code from "@/components/Card/Code";
+import Contact from "@/components/Contact/Contact";
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -23,6 +24,7 @@ const Home = () => {
         <Experience />
         <Skills />
         <Approach />
+        <Contact />
       </div>
     </main>
   );
