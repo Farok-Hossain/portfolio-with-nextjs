@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="lg:flex">
       <div>
         <h1 className=" mb-5 text-green-400 text-2xl uppercase">
           Contact With Me
@@ -69,8 +69,9 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+
       <div>
-        <div className="mt-5">
+        <div className="mt-8 lg:mt-32 lg:ml-10 lg:mb-4">
           <p className="text-sm md:text-xl flex items-center gap-3 mb-5">
             <MdAlternateEmail
               className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
@@ -93,7 +94,7 @@ const ContactForm = () => {
             <span>{personalData.address}</span>
           </p>
         </div>
-        <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
+        <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10 lg:ml-10">
           <Link target="_blank" href={personalData.github}>
             <IoLogoGithub
               className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
