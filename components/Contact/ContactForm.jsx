@@ -21,7 +21,7 @@ const ContactForm = () => {
   };
   return (
     <div>
-      <h1 className="mt-20 mb-2 text-2xl uppercase">Contact with me</h1>
+      <h1 className="text-2xl uppercase text-green-500">Contact with me</h1>
       <form action="" onSubmit={handleSubmit(onSubmit)}>
         <input
           {...register("email", {
@@ -38,6 +38,7 @@ const ContactForm = () => {
           placeholder="Email"
           className="border border-green-600 border-b-orange-600 mr-3 rounded-md"
         />
+        <h1 className="text-red-500">hello</h1>
         {errors.email && (
           <div className="text-red-600">{errors.email.message}</div>
         )}
