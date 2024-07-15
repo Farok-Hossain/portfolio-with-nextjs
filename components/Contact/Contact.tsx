@@ -36,14 +36,30 @@ const Contact = () => {
         />
         <label>Your Email:</label>
         <input
-          type="email"
           className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+          {...register("email", {
+            required: "Email is required",
+            validate: (value) => {
+              if (!value.includes("@")) {
+                return "Email must include @";
+              }
+              return true;
+            },
+          })}
+          type="email"
         />
+        {errors.email && (
+          <p className="text-sm text-red-600">Please provide a valid email</p>
+        )}
         <label>Message</label>
-        <input
-          type="message"
+        <textarea
+          name="message"
+          required={true}
           className="bg-[#10172d] w-full h-20 border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
         />
+        <button disabled={isSubmitting} type="submit">
+          {isSubmitting ? "Loading..." : "Submit"}
+        </button>
       </form>
     </div>
   );
