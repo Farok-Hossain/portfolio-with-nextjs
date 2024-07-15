@@ -2,7 +2,6 @@
 
 import Approach from "@/components/Approach";
 import Code from "@/components/Card/Code";
-import Contact from "@/components/Contact/Contact";
 import ContactForm from "@/components/Contact/ContactForm";
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
@@ -21,11 +20,9 @@ const Home = () => {
         <Code />
         <Grid />
         <RecentProjects />
-        {/* <Clients /> */}
         <Experience />
         <Skills />
         <Approach />
-        <Contact />
         <ContactForm />
       </div>
     </main>
