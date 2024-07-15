@@ -4,16 +4,19 @@ import { personalData } from "@/utils/data/personal-data";
 import { useState } from "react";
 import { MdAlternateEmail } from "react-icons/md";
 import { TbMailForward } from "react-icons/tb";
-import { IoMdCall } from "react-icons/io";
+import { IoLogoGithub, IoMdCall } from "react-icons/io";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { FaFacebook, FaXTwitter } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+import Link from "next/link";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmitt = (e) => {
+  const handleSubmitt = (e: any) => {
     e.preventDefault();
     console.log(name, email, message);
   };
@@ -67,15 +70,15 @@ const ContactForm = () => {
         </div>
       </div>
       <div>
-        <div>
-          <p className="text-sm md:text-xl flex items-center gap-3">
+        <div className="mt-5">
+          <p className="text-sm md:text-xl flex items-center gap-3 mb-5">
             <MdAlternateEmail
               className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
               size={36}
             />
             <span>{personalData.email}</span>
           </p>
-          <p className="text-sm md:text-xl flex items-center gap-3">
+          <p className="text-sm md:text-xl flex items-center gap-3 mb-5">
             <IoMdCall
               className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
               size={36}
@@ -89,6 +92,38 @@ const ContactForm = () => {
             />
             <span>{personalData.address}</span>
           </p>
+        </div>
+        <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
+          <Link target="_blank" href={personalData.github}>
+            <IoLogoGithub
+              className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              size={48}
+            />
+          </Link>
+          <Link target="_blank" href={personalData.linkedIn}>
+            <BiLogoLinkedin
+              className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              size={48}
+            />
+          </Link>
+          <Link target="_blank" href={personalData.twitter}>
+            <FaXTwitter
+              className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              size={48}
+            />
+          </Link>
+          <Link target="_blank" href={personalData.instagram}>
+            <BsInstagram
+              className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              size={48}
+            />
+          </Link>
+          <Link target="_blank" href={personalData.facebook}>
+            <FaFacebook
+              className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              size={48}
+            />
+          </Link>
         </div>
       </div>
     </div>
