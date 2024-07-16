@@ -8,7 +8,7 @@ import { CgGitFork } from "react-icons/cg";
 const Footer = () => {
   return (
     <footer
-      className="w-full pt-20 pb-10"
+      className=" w-full pt-20 pb-10"
       id="contact"
       style={{ backgroundColor: "#000319" }}
     >
@@ -17,12 +17,12 @@ const Footer = () => {
           <div className="flex justify-center -z-40">
             <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col md:flex-row items-center justify-between ml-12 mr-12">
             <p className="text-sm">
-              © Developer Portfolio by{" "}
+              © Portfolio by{" "}
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/abu-said-bd/"
+                href="https://www.linkedin.com/in/farok-hossain-008444202/"
                 className="text-[#16f2b3]"
               >
                 Farok Hossain
@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex items-center gap-5">
               <Link
                 target="_blank"
-                href="https://github.com/said7388/developer-portfolio"
+                href="https://github.com/Farok-Hossain/portfolio-with-nextjs"
                 className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
               >
                 <IoStar />
@@ -39,7 +39,7 @@ const Footer = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://github.com/said7388/developer-portfolio/fork"
+                href="https://github.com/Farok-Hossain/portfolio-with-nextjs/fork"
                 className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
               >
                 <CgGitFork />
