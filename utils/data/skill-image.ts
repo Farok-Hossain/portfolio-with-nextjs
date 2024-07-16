@@ -74,7 +74,7 @@ import wolframalpha from "/public/svg/skills/wolframalpha.svg";
 import wordpress from "/public/svg/skills/wordpress.svg";
 import reactNative from "/public/svg/skills/reactNative.svg";
 
-export const skillsImage = (skill) => {
+export const skillsImage = (skill: any) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
     case "gcp":

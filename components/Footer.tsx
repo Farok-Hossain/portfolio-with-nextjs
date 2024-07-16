@@ -1,6 +1,3 @@
-import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
-import Image from "next/image";
 import Link from "next/link";
 import { IoStar } from "react-icons/io5";
 import { CgGitFork } from "react-icons/cg";
@@ -54,27 +51,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// <div className="flex flex-col items-center">
-//         <h1 className="heading lg:max-w-[45vw] ml-4">
-//           Ready to take <span className="text-pink-500">your</span> digital
-//           presence to the <span className="text-pink-500">next</span> level?
-//         </h1>
-//         <p className="text-white-300 md:mt-10 my-5 text-center font-bold">
-//           Reach out to me today and let&apos;s{" "}
-//           <span className=" text-pink-500">discuss</span> how I can help you
-//           achieve your goals.
-//         </p>
-//         <a href="mailto: farokafs7@gmail.com">
-//           <MagicButton
-//             title="Let's get in touch"
-//             icon={<FaLocationArrow />}
-//             position="right"
-//           />
-//         </a>
-//       </div>
-//       <div className="text-center mt-5">
-//         <p className="md:text-base lg:font-bold text-sm md:font-normal font-light">
-//           © Portfolio by <span className="text-pink-500">Farok Hossain</span>
-//         </p>
-//       </div>
