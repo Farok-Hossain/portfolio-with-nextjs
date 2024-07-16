@@ -1,9 +1,9 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
-  { name: "Skills", link: "#skills" },
-  { name: "Contact", link: "#contact" },
+  { name: "ABOUT", link: "#about" },
+  { name: "PROJECTS", link: "#projects" },
+  { name: "EXPERIENCE", link: "#experience" },
+  { name: "SKILLS", link: "#skills" },
+  { name: "CONTACT", link: "#contact" },
 ];
 
 import imgAdrian from "../public/adrian.jpg";
