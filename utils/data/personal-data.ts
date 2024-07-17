@@ -10,5 +10,5 @@ export const personalData = {
   instagram: "https://www.instagram.com/farok_afs/",
   twitter: "https://x.com/farok_afs",
   resume:
-    "https://drive.google.com/file/d/1xUPIKV74nAwwEds4E8TEB_pt-NoHv0pv/view",
+    "https://drive.google.com/file/d/1HwY_SazVhx-QAO6so-9rFPkvW28gg-c5/view",
 };
