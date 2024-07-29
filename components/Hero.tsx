@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="lg:grid grid-cols-2 gap-4 mt-40" id="about">
       <div className="pr-2 mb-16 mt-16">
         <p className="text-start md:tracking-wider mb-14 text-xl md:text-3xl lg:text-4xl font-bold">
-          Hello! <br /> This is{" "}
+          Hello<span className="text-pink-500">!</span> <br /> This is{" "}
           <span className=" text-pink-500">Md. Farok Hossain</span>, <br />{" "}
           I&apos;m a Professional{" "}
           <span className="text-green-400">Software Developer</span>.
