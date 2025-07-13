@@ -8,6 +8,10 @@ export const navItems = [
 
 import imgAdrian from "../public/adrian.jpg";
 import imgProfile from "../public/adrian.jpg";
+import p1 from "../public/p1.png";
+import p2 from "../public/p2.png";
+import p3 from "../public/p3.png";
+import p4 from "../public/p4.png";
 
 export const gridItems = [
   {
@@ -78,7 +82,7 @@ export const projects = [
     id: 1,
     title: "Bistro Boss Restaurant",
     des: "A responsive E-commerce website done with MERN with fully functional. Users can easily order food & make payment.",
-    img: "/p1.png",
+    img: p1,
     iconLists: ["/re.svg", "/tail.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
     link: "https://bistro-restaurant-866e3.web.app/",
   },
@@ -86,7 +90,7 @@ export const projects = [
     id: 2,
     title: "Doctors Appointment Web App",
     des: "A responsive website done with functional component of React. Users can easily doctors appointment booking to this website.",
-    img: "/p2.png",
+    img: p2,
     iconLists: ["/re.svg", "/mui1.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
     link: "https://doctors-portal-ec125.firebaseapp.com/",
   },
@@ -94,7 +98,7 @@ export const projects = [
     id: 3,
     title: "Tinzer Health Care - A Health Care Web App",
     des: "A responsive front end web app with fully funtional component of React.",
-    img: "/p3.png",
+    img: p3,
     iconLists: ["/re.svg", "/bt1.svg", "/css1.svg", "/nt1.svg", "/f2.svg"],
     link: "https://tinzer-health-care.netlify.app/",
   },
@@ -102,7 +106,7 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.png",
+    img: p4,
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://apple-15pro.vercel.app/",
   },
