@@ -9,7 +9,7 @@ export const navItems = [
 import imgAdrian from "../public/adrian.jpg";
 import imgProfile from "../public/adrian.jpg";
 import p1 from "../public/desicarousel.png";
-import p2 from "../public/p2.png";
+import p2 from "../public/music_hype.png";
 import p3 from "../public/p3.png";
 import p4 from "../public/p4.png";
 
@@ -81,18 +81,18 @@ export const projects = [
   {
     id: 1,
     title: "Desicarousel",
-    des: "A responsive E-commerce website done with MERN with fully functional. Users can easily order food & make payment.",
+    des: "A marketplace where users can buy and sell products easily. Buyers and sellers use the same platform, with safe payments and order tracking. If a product arrives in bad condition, buyers can request a simple, hassle-free return.",
     img: p1,
     iconLists: ["/re.svg", "/tail.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
-    link: "https://bistro-restaurant-866e3.web.app/",
+    link: "https://desicarousel.com/",
   },
   {
     id: 2,
-    title: "Doctors Appointment Web App",
-    des: "A responsive website done with functional component of React. Users can easily doctors appointment booking to this website.",
+    title: "Music Hype",
+    des: "A music marketplace where singers upload their tracks and fans purchase to listen anytime. Users can also shop exclusive brand products",
     img: p2,
     iconLists: ["/re.svg", "/mui1.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
-    link: "https://doctors-portal-ec125.firebaseapp.com/",
+    link: "https://www.musichypeworldwide.com/",
   },
   {
     id: 3,

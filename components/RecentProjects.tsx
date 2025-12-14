@@ -26,7 +26,7 @@ const RecentProjects = () => {
                 fill
               />
             </div>
-            <div className="w-full p-6 flex flex-col gap-4">
+            <div className="w-full p-6 flex flex-col !justify-end gap-4">
               <h5 className="text-2xl font-semibold text-white">
                 {project.title}
               </h5>
