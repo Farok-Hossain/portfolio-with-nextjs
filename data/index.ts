@@ -8,7 +8,7 @@ export const navItems = [
 
 import imgAdrian from "../public/adrian.jpg";
 import imgProfile from "../public/adrian.jpg";
-import p1 from "../public/p1.png";
+import p1 from "../public/desicarousel.png";
 import p2 from "../public/p2.png";
 import p3 from "../public/p3.png";
 import p4 from "../public/p4.png";
@@ -80,7 +80,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Bistro Boss Restaurant",
+    title: "Desicarousel",
     des: "A responsive E-commerce website done with MERN with fully functional. Users can easily order food & make payment.",
     img: p1,
     iconLists: ["/re.svg", "/tail.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
