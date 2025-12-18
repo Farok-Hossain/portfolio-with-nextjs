@@ -4,8 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
+import { useState } from "react";
 
 const RecentProjects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleProjects = showAll ? projects : projects.slice(0, 4);
   return (
     <section className="w-full py-20" id="projects">
       <h1 className="heading text-center mb-12">
@@ -13,12 +17,12 @@ const RecentProjects = () => {
         <span className="text-pink-500">recent projects</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {projects.map((project) => (
+        {visibleProjects.map((project) => (
           <div
             key={project.id}
             className="flex flex-col gap-6 border border-neutral-700 rounded-xl overflow-hidden transition-shadow hover:shadow-lg"
           >
-            <div className="relative w-full h-[300px] md:h-[400px] overflow-hidden">
+            <div className="relative w-full h-[300px] md:h-[400px] overflow-hidden cursor-pointer">
               <Image
                 src={project.img}
                 alt={`${project.title} image`}
@@ -32,7 +36,7 @@ const RecentProjects = () => {
               </h5>
               <p className="text-lg text-gray-400">{project.des}</p>
               <div className="w-full flex justify-between">
-                <div className="w-full flex flex-wrap gap-1">
+                {/* <div className="w-full flex flex-wrap gap-1">
                   {project.iconLists.map((icon, index) => (
                     <div
                       key={index}
@@ -47,7 +51,7 @@ const RecentProjects = () => {
                       />
                     </div>
                   ))}
-                </div>
+                </div> */}
                 <div className="w-fit flex gap-2">
                   <Link
                     href={project.link}
@@ -56,7 +60,7 @@ const RecentProjects = () => {
                     className="text-white flex items-center gap-1 text-nowrap"
                   >
                     Live Website{" "}
-                    <FaLocationArrow className="text-base text-pink-200" />
+                    <FaLocationArrow className="text-base text-pink-200 mt-1 pl-0.5" />
                   </Link>
                 </div>
               </div>
@@ -64,6 +68,18 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+
+      {/* See More Button */}
+      {projects.length > 4 && (
+        <div className="flex justify-center mt-12">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-10 py-3 rounded-full border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white transition"
+          >
+            {showAll ? "Show Less" : "See More"}
+          </button>
+        </div>
+      )}
     </section>
   );
 };

@@ -10,8 +10,11 @@ import imgAdrian from "../public/adrian.jpg";
 import imgProfile from "../public/adrian.jpg";
 import p1 from "../public/desicarousel.png";
 import p2 from "../public/music_hype.png";
-import p3 from "../public/p3.png";
-import p4 from "../public/p4.png";
+import p3 from "../public/brycelowe.png";
+import p4 from "../public/atalab.png";
+import p5 from "../public/tikabot.png";
+import p6 from "../public/citizen.png";
+import p7 from "../public/p4.png";
 
 export const gridItems = [
   {
@@ -83,7 +86,6 @@ export const projects = [
     title: "Desicarousel",
     des: "A marketplace where users can buy and sell products easily. Buyers and sellers use the same platform, with safe payments and order tracking. If a product arrives in bad condition, buyers can request a simple, hassle-free return.",
     img: p1,
-    iconLists: ["/re.svg", "/tail.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
     link: "https://desicarousel.com/",
   },
   {
@@ -91,23 +93,41 @@ export const projects = [
     title: "Music Hype",
     des: "A music marketplace where singers upload their tracks and fans purchase to listen anytime. Users can also shop exclusive brand products",
     img: p2,
-    iconLists: ["/re.svg", "/mui1.svg", "/n3.svg", "/m1.svg", "/f2.svg"],
     link: "https://www.musichypeworldwide.com/",
   },
   {
     id: 3,
-    title: "Tinzer Health Care - A Health Care Web App",
-    des: "A responsive front end web app with fully funtional component of React.",
+    title: "AI-Powered Real-Time Guidance for Sales Professionals",
+    des: "AI-powered sales platform with real-time call guidance, smart insights, and performance analytics. Help sales professionals handle live calls better, improve conversions, and close more deals using intelligent AI-driven support.",
     img: p3,
-    iconLists: ["/re.svg", "/bt1.svg", "/css1.svg", "/nt1.svg", "/f2.svg"],
-    link: "https://tinzer-health-care.netlify.app/",
+    link: "https://pitchprox.netlify.app/dashboard",
   },
   {
     id: 4,
+    title: "The Dignity Draw",
+    des: "A secure weekly draw platform where users donate to participate and, after one week, a winner is selected transparently. Simple participation, fair selection, and exciting rewards for the community every week.",
+    img: p4,
+    link: "https://thedignitydraw.org/",
+  },
+  {
+    id: 5,
+    title: "TikaBot",
+    des: "TikaBot is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    img: p5,
+    link: "https://tikabot.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Citizen Movement",
+    des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
+    img: p6,
+    link: "https://cmclib.com/",
+  },
+  {
+    id: 7,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: p4,
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: p7,
     link: "https://apple-15pro.vercel.app/",
   },
 ];
