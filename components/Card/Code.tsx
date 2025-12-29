@@ -13,7 +13,7 @@ const Code = () => {
           className=" rounded-3xl lg:h-[80%] lg:w-[68%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
         />
       </div>
-      <div className="mt-8">
+      <div className="mt-8 space-y-3">
         <h1 className="uppercase text-green-400 text-2xl font-bold ">
           Who I am?
         </h1>
