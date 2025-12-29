@@ -5,7 +5,7 @@ import { personalData } from "@/utils/data/personal-data";
 
 const Code = () => {
   return (
-    <div className="lg:grid grid-cols-2 mt-20 mb-24">
+    <div className="lg:grid grid-cols-2 justify-center items-center mt-20 mb-24">
       <div>
         <Image
           src={myImage}
@@ -17,7 +17,7 @@ const Code = () => {
         <h1 className="uppercase text-green-400 text-2xl font-bold ">
           Who I am?
         </h1>
-        <p>{personalData.description}</p>
+        <p className="text-lg">{personalData.description}</p>
       </div>
     </div>
   );
