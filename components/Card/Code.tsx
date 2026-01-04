@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import myImage from "../../public/myImage.jpg";
+import image from "../../public/myImage.jpg";
 import { personalData } from "@/utils/data/personal-data";
 
 const Code = () => {
@@ -8,7 +8,7 @@ const Code = () => {
     <div className="lg:grid grid-cols-2 justify-center items-center mt-20 mb-24">
       <div>
         <Image
-          src={myImage}
+          src={image}
           alt="myImg"
           className=" rounded-3xl lg:h-[80%] lg:w-[68%] md:h-[50%] md:w-[50%] mt-10 mb-5 "
         />
