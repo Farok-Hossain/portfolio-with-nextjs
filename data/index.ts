@@ -15,7 +15,7 @@ import p4 from "../public/atalab.png";
 import p5 from "../public/chique.png";
 import p6 from "../public/tikabot.png";
 import p7 from "../public/p4.png";
-import p8 from "../public/citizen.png";
+// import p8 from "../public/citizen.png";
 
 export const gridItems = [
   {
@@ -132,13 +132,13 @@ export const projects = [
     img: p7,
     link: "https://apple-15pro.vercel.app/",
   },
-  {
-    id: 8,
-    title: "Citizen Movement",
-    des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
-    img: p8,
-    link: "https://cmclib.com/",
-  },
+  // {
+  //   id: 8,
+  //   title: "Citizen Movement",
+  //   des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
+  //   img: p8,
+  //   link: "https://cmclib.com/",
+  // },
 ];
 
 export const testimonials = [
