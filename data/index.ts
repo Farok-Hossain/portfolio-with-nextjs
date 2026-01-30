@@ -12,9 +12,10 @@ import p1 from "../public/desicarousel.png";
 import p2 from "../public/music_hype.png";
 import p3 from "../public/brycelowe.png";
 import p4 from "../public/atalab.png";
-import p5 from "../public/tikabot.png";
-import p6 from "../public/citizen.png";
+import p5 from "../public/chique.png";
+import p6 from "../public/tikabot.png";
 import p7 from "../public/p4.png";
+import p8 from "../public/citizen.png";
 
 export const gridItems = [
   {
@@ -111,24 +112,32 @@ export const projects = [
   },
   {
     id: 5,
-    title: "TikaBot",
-    des: "TikaBot is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    title: "Chique AI",
+    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
     img: p5,
-    link: "https://tikabot.netlify.app/",
+    link: "https://aichique.com/",
   },
   {
     id: 6,
-    title: "Citizen Movement",
-    des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
+    title: "TikaBot",
+    des: "TikaBot is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
     img: p6,
-    link: "https://cmclib.com/",
+    link: "https://tikabot.netlify.app/",
   },
+
   {
     id: 7,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: p7,
     link: "https://apple-15pro.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Citizen Movement",
+    des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
+    img: p8,
+    link: "https://cmclib.com/",
   },
 ];
 
