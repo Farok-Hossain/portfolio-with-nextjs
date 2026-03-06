@@ -15,6 +15,7 @@ import p4 from "../public/atalab.png";
 import p5 from "../public/chique.png";
 import p6 from "../public/tikabot.png";
 import p7 from "../public/p4.png";
+import p8 from "../public/oc.png";
 // import p8 from "../public/citizen.png";
 
 export const gridItems = [
@@ -119,6 +120,20 @@ export const projects = [
   },
   {
     id: 6,
+    title: "Oc Workforce",
+    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    img: p8,
+    link: "https://ocworkforcehousing.com",
+  },
+  {
+    id: 7,
+    title: "Pinace Capital Group",
+    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    img: p8,
+    link: "https://pinnaclealts.com/",
+  },
+  {
+    id: 7,
     title: "TikaBot",
     des: "TikaBot is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
     img: p6,
@@ -126,7 +141,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: p7,
