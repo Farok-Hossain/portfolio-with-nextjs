@@ -88,7 +88,8 @@ export const projects = [
     title: "Desicarousel",
     des: "A marketplace where users can buy and sell products easily. Buyers and sellers use the same platform, with safe payments and order tracking. If a product arrives in bad condition, buyers can request a simple, hassle-free return.",
     img: p1,
-    link: "https://desicarousel.com/",
+    // link: "https://desicarousel.com/",
+    link: "https://desi-carousel.netlify.app/",
   },
   {
     id: 2,

@@ -14,7 +14,7 @@ const Hero = () => {
           Hello<span className="text-pink-500">!</span> <br /> This is{" "}
           <span className=" text-pink-500">Md. Farok Hossain</span>, <br />{" "}
           I&apos;m a Software Developer at{" "}
-          <span className="text-green-400">Softvence Agency</span>.
+          <span className="text-green-400">Techgeen</span>.
         </p>
         <div className="my-5 flex text-left gap-5 mb-12">
           <Link
