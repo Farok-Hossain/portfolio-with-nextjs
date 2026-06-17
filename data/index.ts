@@ -100,32 +100,33 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Oc Workforce",
+    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    img: p8,
+    link: "https://ocworkforcehousing.com",
+  },
+  {
+    id: 4,
     title: "AI-Powered Real-Time Guidance for Sales Professionals",
     des: "AI-powered sales platform with real-time call guidance, smart insights, and performance analytics. Help sales professionals handle live calls better, improve conversions, and close more deals using intelligent AI-driven support.",
     img: p3,
     link: "https://pitchprox.netlify.app/dashboard",
   },
   {
-    id: 4,
+    id: 5,
     title: "The Dignity Draw",
     des: "A secure weekly draw platform where users donate to participate and, after one week, a winner is selected transparently. Simple participation, fair selection, and exciting rewards for the community every week.",
     img: p4,
     link: "https://thedignitydraw.org/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Chique AI",
     des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
     img: p5,
     link: "https://aichique.com/",
   },
-  {
-    id: 6,
-    title: "Oc Workforce",
-    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
-    img: p8,
-    link: "https://ocworkforcehousing.com",
-  },
+
   {
     id: 7,
     title: "Pinace Capital Group",
@@ -134,7 +135,7 @@ export const projects = [
     link: "https://pinnaclealts.com/",
   },
   {
-    id: 7,
+    id: 8,
     title: "TikaBot",
     des: "TikaBot is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
     img: p6,
@@ -142,7 +143,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: p7,
