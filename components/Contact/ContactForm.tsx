@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import { personalData } from "@/utils/data/personal-data";
 import { useState } from "react";
@@ -15,10 +15,39 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
 
-  const handleSubmitt = (e: any) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(name, email, message);
+    setLoading(true);
+    setStatus("idle");
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok && data.success) {
+        setStatus("success");
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        setStatus("error");
+        setErrorMsg(data.error || "Something went wrong.");
+      }
+    } catch {
+      setStatus("error");
+      setErrorMsg("Network error. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -35,11 +64,12 @@ const ContactForm = () => {
           </p>
           <div className="mt-6 flex flex-col gap-4">
             <div className="flex flex-col gap-2">
-              <form action="" className="w-full" onSubmit={handleSubmitt}>
+              <form action="" className="w-full" onSubmit={handleSubmit}>
                 <label>Your Name:</label>
                 <input
                   className="bg-[#10172d] mt-2 mb-4 w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
                   type="text"
+                  required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -47,21 +77,33 @@ const ContactForm = () => {
                 <input
                   className="bg-[#10172d] mt-2 mb-4 w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
                   type="email"
+                  required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <label>Your Message:</label>
-                <input
-                  className="bg-[#10172d] mt-2 w-full h-20 border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2 mb-5"
-                  type="text"
+                <textarea
+                  className="bg-[#10172d] mt-2 w-full h-28 border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2 mb-5 resize-none"
+                  required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
+
+                {status === "success" && (
+                  <p className="mb-3 text-sm text-[#16f2b3]">
+                    ✅ Message sent successfully! I will get back to you soon.
+                  </p>
+                )}
+                {status === "error" && (
+                  <p className="mb-3 text-sm text-red-400">❌ {errorMsg}</p>
+                )}
+
                 <button
-                  className="flex items-center mb-2  gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+                  disabled={loading}
+                  className="flex items-center mb-2 gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold disabled:opacity-60 disabled:cursor-not-allowed"
                   type="submit"
                 >
-                  <span>Send Message</span>
+                  <span>{loading ? "Sending..." : "Send Message"}</span>
                   <TbMailForward className="" size={18} />
                 </button>
               </form>
