@@ -10,7 +10,7 @@ export const skillsData = [
   "MongoDB",
   "Git",
   "Bootstrap",
-  "Figma",
+  // "Figma",
   "Firebase",
   "MaterialUI",
 ];
