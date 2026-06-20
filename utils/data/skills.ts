@@ -7,7 +7,7 @@ export const skillsData = [
   "Next JS",
   "ReactNative",
   "Tailwind",
-  "MongoDB",
+  // "MongoDB",
   "Git",
   "Bootstrap",
   // "Figma",
