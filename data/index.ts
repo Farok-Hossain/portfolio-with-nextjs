@@ -149,13 +149,13 @@ export const projects = [
     img: p7,
     link: "https://apple-15pro.vercel.app/",
   },
-  // {
-  //   id: 8,
-  //   title: "Citizen Movement",
-  //   des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
-  //   img: p8,
-  //   link: "https://cmclib.com/",
-  // },
+  {
+    id: 10,
+    title: "Citizen Movement",
+    des: "A powerful CMS-based website where users can donate, shop online, and read the latest news articles. One platform to manage content, support causes, sell products, and keep audiences informed.",
+    img: p8,
+    link: "https://cmclib.com/",
+  },
 ];
 
 export const testimonials = [
