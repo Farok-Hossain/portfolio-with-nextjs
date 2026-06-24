@@ -145,8 +145,8 @@ export const skillsImage = (skill: any) => {
     //   return go;
     case "java":
       return java;
-    case "kotlin":
-      return kotlin;
+    // case "kotlin":
+    //   return kotlin;
     case "julia":
       return julia;
     case "matlab":
