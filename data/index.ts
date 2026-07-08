@@ -101,7 +101,7 @@ export const projects = [
   {
     id: 3,
     title: "Oc Workforce",
-    des: "Chique AI is an AI-powered call system that provides real-time guidance, smart insights, and automation to help teams handle calls efficiently and improve customer communication.",
+    des: "OC Workforce Housing is an online hotel booking platform where users can browse accommodations, check room availability, view property details andsecurely book rooms, ensuring a smooth & convenient reservation experience.",
     img: p8,
     link: "https://ocworkforcehousing.com",
   },
