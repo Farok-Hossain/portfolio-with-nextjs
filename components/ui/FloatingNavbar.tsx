@@ -57,7 +57,7 @@ export const FloatingNav = ({
         }}
         className={cn(
           "flex gap-10 max-w-full md:min-w-[70vw] lg:min-w-full fixed z-[5000] inset-x-0 mx-auto px-10 py-7 border-b border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center w-[95%] space-x-4",
-          className
+          className,
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
@@ -69,7 +69,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative items-center font-bold flex gap-10 text-pink-600 dark:hover:text-neutral-300 hover:text-neutral-500 "
+              "relative items-center font-bold flex gap-10 text-pink-600 dark:hover:text-neutral-300 hover:text-neutral-500 ",
             )}
           >
             <span className="text-xs md:text-sm lg:text-sm !cursor-pointer ">
