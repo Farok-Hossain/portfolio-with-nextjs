@@ -9,6 +9,6 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/farok-hossain-008444202/",
   instagram: "https://www.instagram.com/farok_afs/",
   twitter: "https://x.com/farok_afs",
-  resume:
-    "https://drive.google.com/file/d/1xUPIKV74nAwwEds4E8TEB_pt-NoHv0pv/view",
+  resume: "/resume/farok_hossain.pdf",
+  // "https://drive.google.com/file/d/1xUPIKV74nAwwEds4E8TEB_pt-NoHv0pv/view",
 };
